@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: medikart
+  data:
+    mongodb:
+      uri: mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_HOST}/medikart?retryWrites=true&w=majority&appName=Cluster0
+
+jwt:
+  auth:
+    app: medikart
+    secret_key: ${JWT_KEY}
+    expires_in: 7200
+google:
+  client:
+    id: ${GOOGLE_CLIENT_KEY}
