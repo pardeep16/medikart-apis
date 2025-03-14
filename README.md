@@ -1,6 +1,6 @@
 # medikart-apis
 
-##VM Arguments
+## VM Arguments
 -DMONGO_USER=XXXXXXXXX
 -DMONGO_PASSWORD=XXXXXXXXX
 -DGOOGLE_CLIENT_KEY=XXXXXXXXX.apps.googleusercontent.com
